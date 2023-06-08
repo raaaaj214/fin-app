@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto&display=swap');
+
+.car
+{
+
+}
+.clients-main
+{
+    margin-top: 4vh;
+    padding-inline: clamp(1em,8vw,8em);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.clients-left
+{
+}
+.clients-right
+{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.clients-in-right
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+}
+#clients-right-img
+{   
+    width: clamp(1rem,5vw,5rem);
+
+}
+.clients-left>img
+{
+    width: clamp(18rem,40vw,50rem);
+}
+.clients-right-content
+{
+ }
+.clients-right-content>h6
+{
+    font-size: clamp(2rem,4vw,3rem);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-block: clamp(0.5em,1vw,1em);
+    font-weight: lighter;
+}
+.clients-right-content>p
+{
+    text-align: center;
+    margin: 0  clamp(.5em,4vw,4em);
+    font-size: clamp(0.9em,1.2vw,1.2em);
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+.clients-right-person
+{
+    font-family: 'Quicksand', sans-serif;
+    font-size: clamp(1.2rem,3vw,2rem);
+    text-align: center;
+}
+.clients-right-person>h6
+{
+    margin: 1rem;
+}
+.clients-right-person>#crp1
+{
+    font-size: 1em;
+}
+.clients-right-person>#crp2
+{
+    color: gray;
+    font-size: 0.8em;
+}
+
+@media screen and (max-width : 810px) {
+    .clients-left
+    {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .clients-right
+    {
+        width: 100%;
+    }
+}

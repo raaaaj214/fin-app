@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway&family=Roboto+Condensed:wght@300&display=swap');
+
+a
+{
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+.services
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+/* .main-content>img
+{
+    width: 30%;
+    height: auto;
+    min-height: 14dvh;
+    object-fit: contain;
+    z-index: -1000;
+    margin: auto;
+} */
+.main-content
+{
+    margin: 8vh auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+.c
+{
+    border-radius: 10px;
+    flex: 1 1 10rem;   
+    background: linear-gradient(rgb(211, 215, 181),rgba(213, 220, 162, 0.83));
+    padding: clamp(.25em,1vw,1em);
+    /* box-shadow: 2px 2px 5px 2px grey; */
+    border: 1px solid black;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.c>h5
+{
+    font-size: clamp(1em,2vw,2em); /*1.3rem*/
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+
+}
+.c>p
+{
+    font-size: clamp(0.8em,2vw,1em);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+#greet
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding: 2em;
+    font-size: clamp(1em,2vw,2em);
+    letter-spacing: 5px;
+}
+.c a
+{
+    padding-left: .5ch;
+}
+#heading
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: clamp(1.5rem,3vw,3rem);
+    font-weight: 800;
+}
+
+#info
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 0;
+    font-size: clamp(0.8em,2vw,1em);
+    display: block;
+    width: auto;
+    padding: max(1rem,1vh) 20vw;
+    
+}
