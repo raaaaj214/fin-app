@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:wght@200&display=swap');
+
+.landingpage
+{
+    gap: min(2vw,1em);
+    height: 60vh;
+    min-height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.landingpage::before
+{
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    background: url("../images/modern-office-desk-composition-with-technological-device.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-height: 85vh;
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+.heading
+{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(1.8rem,4.6vw,5rem);
+
+}
+.subheading
+{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: clamp(1.2rem,2.3vw,2rem);
+    font-weight: 800;
+}
+.btn>button
+{
+    margin: 1em;
+    border:2px solid black ;
+    padding: min(1.5vw,1rem) min(2.5vw,2rem);
+    font-family: 'Fira Sans', sans-serif;
+    font-size: clamp(0.7rem,1.4vw,1.5rem);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.btn>button:hover
+{
+    background: black;
+    color: white;
+}

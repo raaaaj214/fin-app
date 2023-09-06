@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+.about
+{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    background: rgb(21, 21, 116);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: clamp(0.5em,2vw,2em);
+}
+
+.a-heading
+{
+    font-family: 'PT Serif', serif;
+    font-size: clamp(2em,4vw,3rem);
+}
+.a-box>h1
+{
+    font-size: clamp(2em,4vw,4rem);
+    
+}
+.a-box>p
+{
+    font-family: 'PT Serif', serif;
+    letter-spacing: 2px;
+    margin: -1vw;
+
+}
+.a-descp
+{
+    display: inline-block;
+    margin: 2vw auto;
+    width: 70vw;
+}
+.a-ani 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    justify-content: space-around;
+}
+.a-box
+{
+    flex: 1 1 12rem;
+    
+}
+.about-info
+{
+    display: flex;
+    gap: 2vw;
+    flex-wrap: wrap;
+    padding-inline : min(10vw,10rem);
+    padding-top: 1em;
+}
+
+@media screen and (max-width : 643px) {
+    .about-info
+    {
+        padding-inline: 1.3rem;
+    }
+}
+.about-info>.s
+{
+    flex: 1 1 20rem;
+    margin: 1em;
+    height: 30%;
+    font-style: italic;
+}
+.s1
+{
+    border-bottom: 2px solid black;
+}
+.s>h1
+{
+    font-size: clamp(1.6rem,4vw,2rem);
+}
+.s>p
+{
+    font-size: clamp(1em,2vw,1.3em);
+}
+#a-btn
+{
+    background: none;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 0.5em 1em;
+    font-size: clamp(1em,2vw,1.3em);
+    font-weight: 600;
+    
+}
+#a-btn:hover
+{
+    background: black;
+    color: white;
+}
+
+.img
+{
+    border: 1px solid red;
+}

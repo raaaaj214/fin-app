@@ -4,7 +4,7 @@ import "../styles/Services.css";
 
 function Services() {
   return (
-    <div className='services'>
+    <div className='services' id="services">
         <span id='greet'>WELCOME</span>
         <span id='heading'>Our Services</span>
         <span id='info'>Our management consulting services focus on our clients' most critical issues and opportunities.</span>

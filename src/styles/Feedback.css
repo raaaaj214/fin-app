@@ -1,5 +1,6 @@
 .feedback-main
 {
+    height: 100dvh;
     /* background: purple; */
     padding: 5rem 10rem;
     display: flex;
@@ -8,15 +9,13 @@
 .feedback-img
 {
     width: 40vw;
-    /* background: yellow; */
 }
 .feedback-img>img
 {
-    width: clamp(10rem,30vw,34rem);
+    width: clamp(10rem,30vw,22rem);
 }
 .feedback-form
 {
-    /* background: rgb(255, 244, 224); */
     padding: 0 clamp(2rem,10vw,10rem);
     display: flex;
     justify-content: center;
@@ -35,19 +34,22 @@
     width: clamp(5rem,40vw,40rem);
     border: none;
     border-bottom: 3px solid black;
-    font-size: clamp(.8em,2vw,1.3em);
+    font-size: clamp(1em,2vw,1.3em);
     background: transparent;
 }
 #mail:focus,#add:focus
 {
-    border: none;
+    outline: none;
     border-bottom: 3px solid black;
-    outline : 1px solid black
 }
 label{
     font-size: clamp(.8em,2vw,1.2em);
     font-weight: 900;
     letter-spacing: 1px;
+}
+#item:focus
+{
+    outline: none;
 }
 #item
 {
@@ -70,6 +72,10 @@ label{
     background: black;
     color: white;
     letter-spacing: 2px;
+}
+.feedback-form  button:hover
+{
+    background: rgb(53, 50, 50);
 }
 .feedback-form  button:active
 {

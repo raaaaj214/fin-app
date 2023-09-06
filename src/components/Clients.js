@@ -24,7 +24,7 @@ function Clients() {
         <img src={himg} alt="" />
       </div>
       <div className="clients-right">
-        <Carousel showStatus={false} autoPlay={true} >
+        <Carousel showThumbs={false} showStatus={false} interval={5000} infiniteLoop={true} showArrows={false} autoPlay={true} width={'clamp(20rem,40vw,40rem)'}>
           <ClientsInfo p={info[0].p} name={info[0].name}/>
           <ClientsInfo p={info[1].p} name={info[1].name}/>
         </Carousel>

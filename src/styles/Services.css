@@ -47,14 +47,14 @@ a
 }
 .c>h5
 {
-    font-size: clamp(1em,2vw,2em); /*1.3rem*/
+    font-size: clamp(1.5em,2vw,2em); /*1.3rem*/
     font-weight: 600;
     font-family: 'Raleway', sans-serif;
 
 }
 .c>p
 {
-    font-size: clamp(0.8em,2vw,1em);
+    font-size: 1em;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
 }
@@ -63,7 +63,7 @@ a
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
     padding: 2em;
-    font-size: clamp(1em,2vw,2em);
+    font-size: clamp(1.5em,2vw,2em);
     letter-spacing: 5px;
 }
 .c a
@@ -73,7 +73,7 @@ a
 #heading
 {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: clamp(1.5rem,3vw,3rem);
+    font-size: clamp(1.9rem,3vw,3rem);
     font-weight: 800;
 }
 
@@ -83,9 +83,9 @@ a
     font-weight: 900;
     font-style: italic;
     letter-spacing: 0;
-    font-size: clamp(0.8em,2vw,1em);
+    font-size: clamp(1em,2vw,1.4em);
     display: block;
     width: auto;
-    padding: max(1rem,1vh) 20vw;
-    
+    padding: max(1rem,1vh) min(1em,20vw);
+ 
 }
